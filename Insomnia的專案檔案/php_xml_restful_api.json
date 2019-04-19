@@ -1,0 +1,110 @@
+{
+  "_type": "export",
+  "__export_format": 1,
+  "__export_date": "2019-04-19T08:03:46.215Z",
+  "__export_source": "insomnia.chrome.app:v2.7.0",
+  "items": [
+    {
+      "_type": "request_group",
+      "_id": "grp_1555650095513",
+      "name": "PHP_XML_RESTful_API",
+      "environments": {},
+      "requests": [
+        {
+          "_type": "request",
+          "_id": "req_1555650095513",
+          "url": "http://jashliao.eu/php_restful_api/class",
+          "method": "GET",
+          "body": "{}",
+          "headers": [],
+          "params": [],
+          "authentication": {
+            "_type": "basic",
+            "username": "",
+            "password": ""
+          },
+          "__insomnia": {
+            "format": "json",
+            "panel_width": 0.5
+          },
+          "name": "GET class"
+        },
+        {
+          "_type": "request",
+          "_id": "req_1555660719661",
+          "url": "http://jashliao.eu/php_restful_api/class",
+          "method": "POST",
+          "body": "{}",
+          "headers": [],
+          "params": [
+            {
+              "name": "name",
+              "value": "SAT班"
+            },
+            {
+              "name": "count",
+              "value": "100"
+            }
+          ],
+          "authentication": {
+            "_type": "basic",
+            "username": "",
+            "password": ""
+          },
+          "__insomnia": {
+            "format": "json",
+            "panel_width": 0.5
+          },
+          "name": "POST class"
+        },
+        {
+          "_type": "request",
+          "_id": "req_1555660869663",
+          "url": "http://jashliao.eu/php_restful_api/class/1",
+          "method": "PUT",
+          "body": "{}",
+          "headers": [],
+          "params": [
+            {
+              "name": "name",
+              "value": "SAT"
+            },
+            {
+              "name": "count",
+              "value": "200"
+            }
+          ],
+          "authentication": {
+            "_type": "basic",
+            "username": "",
+            "password": ""
+          },
+          "__insomnia": {
+            "format": "json",
+            "panel_width": 0.5
+          },
+          "name": "PUT class"
+        },
+        {
+          "_type": "request",
+          "_id": "req_1555660997909",
+          "url": "http://jashliao.eu/php_restful_api/class/1",
+          "method": "DELETE",
+          "body": "{}",
+          "headers": [],
+          "params": [],
+          "authentication": {
+            "_type": "basic",
+            "username": "",
+            "password": ""
+          },
+          "__insomnia": {
+            "format": "json",
+            "panel_width": 0.5
+          },
+          "name": "DELETE class"
+        }
+      ]
+    }
+  ]
+}
